@@ -1,0 +1,16 @@
+{
+  "name": "pseo-keyword-checker",
+  "version": "0.1.0",
+  "description": "Check which exact SEO keywords a catalog draft preserves.",
+  "mcpServers": {
+    "pseo-keyword-checker": {
+      "httpUrl": "https://rewrite.vectorlens.ai/mcp",
+      "includeTools": [
+        "preview_rewrite"
+      ],
+      "headers": {
+        "X-PSEO-Client": "gemini-extension"
+      }
+    }
+  }
+}
