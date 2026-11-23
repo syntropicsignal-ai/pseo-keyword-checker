@@ -4,6 +4,8 @@ Use this Gemini CLI extension to connect to a hosted MCP server for programmatic
 
 ## Install
 
+[Register for pilot access](https://rewrite.vectorlens.ai/register/). Once your account has been approved, enter your pSEO Rewrite token when Gemini prompts for it during installation. Store the token in the extension setting.
+
 ```sh
 gemini extensions install https://github.com/syntropicsignal-ai/pseo-keyword-checker
 ```
@@ -18,6 +20,6 @@ Read the revised paragraph and check the product details before publishing. To r
 
 `rewrite_seo_copy` sends the submitted draft and phrases to pSEO Rewrite and Anthropic to generate the edit. Submit public-facing copy you have permission to share. `preview_rewrite` runs a literal phrase check without model inference. Neither tool publishes to a shop or edits local files. The server counts usage in aggregate. All extension installations send the same client label.
 
-The English pilot runs through December 21, 2026 (Warsaw). It has a shared usage allowance and requires no account.
+The English pilot runs through December 21, 2026 (Warsaw). API and MCP calls require an active account token. The public website accepts individual sample requests. Automated rewriting is paused while pilot access is being configured.
 
 [Setup and limits](https://rewrite.vectorlens.ai/mcp-setup/) · [Privacy and contact](https://rewrite.vectorlens.ai/privacy/)
