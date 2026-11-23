@@ -20,6 +20,6 @@ Read the revised paragraph and check the product details before publishing. To r
 
 `rewrite_seo_copy` sends the submitted draft and phrases to pSEO Rewrite and Anthropic to generate the edit. Submit public-facing copy you have permission to share. `preview_rewrite` runs a literal phrase check without model inference. Neither tool publishes to a shop or edits local files. The server counts usage in aggregate. All extension installations send the same client label.
 
-The English pilot runs through December 21, 2026 (Warsaw). API and MCP calls require an active account token. The public website accepts individual sample requests. Automated rewriting is paused while pilot access is being configured.
+The English pilot runs through December 21, 2026 (Warsaw). API and MCP calls require an active account token. The public website accepts individual sample requests. Approved accounts can rewrite one description at a time within their daily allowance.
 
 [Setup and limits](https://rewrite.vectorlens.ai/mcp-setup/) · [Privacy and contact](https://rewrite.vectorlens.ai/privacy/)
