@@ -1,6 +1,6 @@
 # pSEO Rewrite for Gemini CLI
 
-Rewrite an English product description and keep the exact terms from your SEO brief. The extension returns revised copy and a checklist of the phrases it kept. It also checks drafts you have already edited.
+Use this Gemini CLI extension to connect to a hosted MCP server for programmatic SEO. Give it an English product description and the exact keywords from your brief. It rewrites the description, checks every required phrase and returns the edited copy with the phrases it verified. You can also check a draft you have already edited.
 
 ## Install
 
