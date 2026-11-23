@@ -1,6 +1,6 @@
 {
   "name": "pseo-keyword-checker",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Rewrite English product descriptions and preserve the exact keywords in your SEO brief.",
   "mcpServers": {
     "pseo-keyword-checker": {
@@ -10,8 +10,17 @@
         "preview_rewrite"
       ],
       "headers": {
-        "X-PSEO-Client": "gemini-extension"
+        "X-PSEO-Client": "gemini-extension",
+        "Authorization": "Bearer ${PSEO_REWRITE_TOKEN}"
       }
     }
-  }
+  },
+  "settings": [
+    {
+      "name": "pSEO Rewrite access token",
+      "description": "Enter the pilot token issued for your registered pSEO Rewrite account.",
+      "envVar": "PSEO_REWRITE_TOKEN",
+      "sensitive": true
+    }
+  ]
 }
