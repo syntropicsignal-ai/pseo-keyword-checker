@@ -4,6 +4,8 @@ Use this Gemini CLI extension to connect to a hosted MCP server for programmatic
 
 ## Install
 
+Start with an active Gemini CLI model session. Google retired consumer sign-in for Gemini CLI on June 18, 2026 and directs individual, Google AI Pro and Ultra users to Antigravity. [Check Gemini CLI account eligibility](https://developers.google.com/gemini-code-assist/docs/deprecations/code-assist-individuals).
+
 [Register for pilot access](https://rewrite.vectorlens.ai/register/). Once your account has been approved, enter your pSEO Rewrite token when Gemini prompts for it during installation. Store the token in the extension setting.
 
 ```sh
