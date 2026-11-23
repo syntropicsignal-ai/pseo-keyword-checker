@@ -1,11 +1,12 @@
 {
   "name": "pseo-keyword-checker",
-  "version": "0.1.0",
-  "description": "Check which exact SEO keywords a catalog draft preserves.",
+  "version": "0.2.0",
+  "description": "Rewrite English product descriptions and preserve the exact keywords in your SEO brief.",
   "mcpServers": {
     "pseo-keyword-checker": {
       "httpUrl": "https://rewrite.vectorlens.ai/mcp",
       "includeTools": [
+        "rewrite_seo_copy",
         "preview_rewrite"
       ],
       "headers": {
